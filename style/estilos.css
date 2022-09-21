@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/* --HEADER-- */
+header{
+    display: flex;
+    background-color: teal;
+    justify-content: space-between ;
+    align-items: center;
+    width: auto;
+}
+/* --LOGO-- */
+.logo{
+    display: flex;
+    
+    }
+.logo{
+    height: 90px;
+    width: 100px
+}
+/* --NAVEGADOR-- */
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color: darkkhaki;
+    display: flex;
+}
+nav a:hover{
+    color: tomato;
+}
+/* --BANNER-- */
+
+
+.banner__imagen{
+    margin: 0;
+    display: flex;
+    height: 70vh;
+    max-width: 900px;;
+}
+/* --TARJETAS-- */
+.tarjeta{
+width: 300px;
+height: 400px;
+border: 1px solid black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+}
+.tarjeta__imagen{
+    width: 100%;
+}
+
+.tarjeta__boton{
+    background-color: teal;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.tarjeta__boton:hover{
+    color: tomato;
+}
+
+@media (min-width: 360px){
+    .tarjeta{
+        display: block;
+
+    }
+}
+
+main{
+    background-color: white;
+    height: 100vp;
+    
+}
+/* -SECCION CATEGORIA- */
+
+/* --SECCION NOVEDADES-- */
+.novedades__titulo{
+    background-color: teal;
+    padding: 25px;
+    text-align: center;
+}
+
+.slider__productos{
+    display: flex;
+}
+/* main--quienessomos */
+.contenedor_cuerpo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    }
+/*  */
+.contenedor_garantia{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.formulario{
+    height: 80vh;
+}
+/* --SECCION FOOTER-- */
+footer{
+    background-color: teal;
+    width: 100%;
+    height: 130px;
+}
+
+.columna1{
+    display: flex;
+    text-align: center;
+}
+.columna1{
+    height: 40px;
+}
+.columna2{
+    display: flex;
+}
+.columna2{
+    height: 30px;
+    justify-content: left;
+}

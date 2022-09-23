@@ -22,7 +22,8 @@ header{
 
 }
 .navbar{
-    background-color: teal;
+    background: rgb(0,128,128);
+background: linear-gradient(90deg, rgba(0,128,128,1) 77%, rgba(9,64,75,1) 93%);
 }
 /* --LOGO-- */
 .logo{
@@ -32,6 +33,11 @@ header{
 .logo{
     height: 90px;
     width: 100px
+}
+
+.categoria{
+    background: rgb(0,128,128);
+background: linear-gradient(90deg, rgba(0,128,128,1) 77%, rgba(9,64,75,1) 93%);    
 }
 /* --NAVEGADOR-- */
 /* nav a{
@@ -93,7 +99,8 @@ main{
 
 /* --SECCION NOVEDADES-- */
 .novedades__titulo{
-    background-color: teal;
+    background: rgb(0,128,128);
+background: linear-gradient(90deg, rgba(0,128,128,1) 77%, rgba(9,64,75,1) 93%);
     padding: 25px;
     text-align: center;
 }
@@ -116,12 +123,50 @@ main{
 }
 
 .formulario{
-    height: 80vh;
+    display: flex;
+flex-direction: column;
+align-items: center;
+        width: 400px;
+        background-color: rgba(12, 90, 25, 0.349);
+        padding: 30px;
+        /* argin: auto;m */
+        color: white;
 }
+
+.caja-formulario{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 4px;
+}
+
+.boton-formulario{
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 10px ;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.boton-formulario:hover{
+    color: beige;
+    background-color: tomato;
+}
+
+.check-boton{
+    margin: 7px;
+    
+}
+
 /* --SECCION FOOTER-- */
 footer{
-    background-color: teal;
-    /* width: 100%; */
+    background: rgb(0,128,128);
+background: linear-gradient(90deg, rgba(0,128,128,1) 77%, rgba(9,64,75,1) 93%);
+    
     
 }
 .c-blanco{

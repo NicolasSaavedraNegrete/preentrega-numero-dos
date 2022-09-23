@@ -49,69 +49,71 @@
       </nav>
     
     <main>
-        <section class="formulario">
-            <h2>Registrate</h2>
+      <section class=" container formulario">
+        <h2 class="">Registrate</h2>
 
-            <form action="">
-                <div>
-                    <label for="nombre_completo">Nombre Completo:</label>
-                    <input type="text" id="nombre_completo" name="nombre_completo"
-                        placeholder="Nicolas Saavedra Negrete" required>
-                </div>
+        <form action="">
+            <div>
+                <label for="nombre_completo">Nombre Completo:</label>
+                <input class="caja-formulario" type="text" id="nombre_completo" name="nombre_completo"
+                    placeholder="Nicolas Saavedra Negrete" required>
+            </div>
 
-                <div>
-                    <label for="rut">RUT:</label>
-                    <input type="text" id="rut" name="rut" placeholder="11.111.111-1" required>
+            <div>
+                <label for="rut">RUT:</label>
+                <input class="caja-formulario" type="text" id="rut" name="rut" placeholder="11.111.111-1" required>
 
-                </div>
-                <div>
-                    <label for="direccion">Direccion:</label>
-                    <input type="text" id="direccion" name="direccion" placeholder="Av. Grecia 1984" required>
-                </div>
-                <div>
-                    <label for="comuna">Comuna:</label>
-                    <input type="text" id="comuna" placeholder="Pudahuel" required>
-                </div>
+            </div>
+            <div>
+                <label for="direccion">Direccion:</label>
+                <input class="caja-formulario" type="text" id="direccion" name="direccion" placeholder="Av. Grecia 1984" required>
+            </div>
+            <div>
+                <label for="comuna">Comuna:</label>
+                <input class="caja-formulario" type="text" id="comuna" placeholder="Pudahuel" required>
+            </div>
 
-                <div>
-                    <label for="region">Region</label>
-                    <select name="region" id="region">
-                        <option value="">Aisen del General Carlos Ibanez</option>
-                        <option value="">Antofagasta</option>
-                        <option value="">Araucania</option>
-                        <option value="">Arica y Parinacota</option>
-                        <option value="">Atacama</option>
-                        <option value="">Bio-Bio</option>
-                        <option value="">Coquimbo</option>
-                        <option value="">Libertador General Bernardo O'Higgins</option>
-                        <option value="">Los Lagos</option>
-                        <option value="">Los Rios</option>
-                        <option value="">Magallanes y de la Antartica Chilena</option>
-                        <option value="">Maule</option>
-                        <option value="">Region Metropolitana</option>
-                        <option value="">Tarapaca</option>
-                        <option value="">Valparaiso</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="correo">Correo Electronico:</label>
-                    <input type="email" id="correo" name="correo" placeholder="ventas@tekmachine.cl" required>
-                </div>
+            <div>
+                <label for="region">Region</label>
+                <select class="caja-formulario" name="region" id="region">
+                    <option value="">Aisen del General Carlos Ibanez</option>
+                    <option value="">Antofagasta</option>
+                    <option value="">Araucania</option>
+                    <option value="">Arica y Parinacota</option>
+                    <option value="">Atacama</option>
+                    <option value="">Bio-Bio</option>
+                    <option value="">Coquimbo</option>
+                    <option value="">Libertador General Bernardo O'Higgins</option>
+                    <option value="">Los Lagos</option>
+                    <option value="">Los Rios</option>
+                    <option value="">Magallanes y de la Antartica Chilena</option>
+                    <option value="">Maule</option>
+                    <option value="">Region Metropolitana</option>
+                    <option value="">Tarapaca</option>
+                    <option value="">Valparaiso</option>
+                </select>
+            </div>
+            <div>
+                <label for="correo">Correo Electronico:</label>
+                <input class="caja-formulario" type="email" id="correo" name="correo" placeholder="ventas@tekmachine.cl" required>
+            </div>
 
-                <div>
-                    <label for="fono">Telefono:</label>
-                    <input type="tel" id="fono" name="fono" placeholder="+56986429758" required>
-                </div>
-                <div>
-                    <label for="password">Contrasena:</label>
-                    <input type="password" id="password" required>
-                </div>
-                <div>
-                    <input type="submit">
-                    <input type="reset">
-                </div>
-            </form>
-        </section>
+            <div>
+                <label for="fono">Telefono:</label>
+                <input class="caja-formulario" type="tel" id="fono" name="fono" placeholder="+56986429758" required>
+            </div>
+            <div>
+                <label for="password">Contrasena:</label>
+                <input class="caja-formulario" type="password" id="password" required>
+            </div>
+            <p>Estoy de acuerdo con los <a href="./garantiaydevolucion.html">Terminos y Condiciones</a><input type="checkbox" class="check-boton" required></p>
+            <div>
+                <input class="boton-formulario" type="submit" value="Crear Cuenta">
+                <input class="boton-formulario" type="reset" value="Borrar">
+            </div>
+            
+        </form>
+    </section>
 
     </main>
 
